@@ -176,6 +176,7 @@ public class OrderCardTest {
         assertTrue(errorMessage.getText().contains("Телефон должен соответствовать формату"));
     }
 
+    
     @Test
     public void shouldShowErrorWhenPhoneTooShort() {
         driver.get(baseUrl);
